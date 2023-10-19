@@ -1,0 +1,5 @@
+#! /bin/sh
+export DISPLAY=:$1
+for nw in `xdotool search --screen :$1 ".*"`; do
+	echo "$nw" && xdotool windowsize "$nw" 1366 768 && xdotool windowmove "$nw" 0 0
+done
