@@ -3,6 +3,8 @@ runxvtrun.sh goes in /etc/profile.d
 xvtrun goes in /etc/sudoers.d
 xvtrun.sh goes in /usr/local/bin
 xrun goes in /usr/local/bin
+xsize.conf goes in /usr/local/bin
+^^^ MAKE SURE TO CHANGE XSIZE.CONF TO YOUR DISPLAY RESOLUTION!!
 
 how it works:
 it creates an xorg server running on a separate display on every vt 3 - 7, numbered 0 - 4
